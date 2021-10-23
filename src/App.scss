@@ -1,0 +1,16 @@
+$mainColor: gray;
+$blackColor: black;
+
+.wrap {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  color: $mainColor;
+  background-color: $mainColor;
+  max-width: 200px;
+  margin-top: 10%;
+}
+.time {
+  color: red;
+  text-align: center;
+}
